@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@700;900&family=Lexend+Deca:wght@200;300;600;900&family=Outfit:wght@200;600;800&display=swap');
+body{
+    background-color: hsl(220, 15%, 55%);
+    margin: 0 auto;
+}
+.main-box {
+    width: 400px;
+    height: 625px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 23px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.qr-code-image {
+    width: 360px;
+    height: 370px;
+    border-radius: 23px;
+    margin-top: 5%;
+}
+.main-box-h{
+    width: 350px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+.in_main_box>div {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.main-box-p {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color:  hsl(220, 15%, 55%);
+}
